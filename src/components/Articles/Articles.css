@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.h1-same {
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.p-same {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.articles {
+  width: 130rem;
+  height: 79rem;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+}
+.articles .articles-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.articles .articles-top h1 {
+  font-size: 4.8rem;
+  color: #211F54;
+}
+.articles .articles-top div button {
+  width: 21.7rem;
+  height: 7.2rem;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-left: 3rem;
+  border-radius: 1rem;
+  transition: all 0.3s;
+}
+.articles .articles-top div button:hover {
+  background: white;
+  color: #6E7191;
+  border: 1px solid #dbdce0;
+}
+.articles .articles-main {
+  width: 100%;
+  height: 63rem;
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.articles .articles-main .articles-main_left {
+  width: 49%;
+  height: 100%;
+  position: relative;
+}
+.articles .articles-main .articles-main_left img {
+  width: 100%;
+  height: 36.6rem;
+}
+.articles .articles-main .articles-main_left .left-box {
+  position: absolute;
+  width: 50rem;
+  height: 32.4rem;
+  background: #FFFFFF;
+  top: 45%;
+  border: 1px solid #EFF0F6;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  border-radius: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+}
+.articles .articles-main .articles-main_left .left-box h2 {
+  color: #211F54;
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  padding-right: 2rem;
+}
+.articles .articles-main .articles-main_left .left-box p {
+  font-size: 2.1rem;
+  line-height: 3.1rem;
+  color: #6E7191;
+  padding-top: 1rem;
+}
+.articles .articles-main .articles-main_left .left-box div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.articles .articles-main .articles-main_left .left-box div h2 {
+  font-size: 1.8rem;
+  color: #211F54;
+}
+.articles .articles-main .articles-main_left .left-box div div {
+  width: 5rem;
+  height: 5rem;
+  background: #0075FF;
+}
+.articles .articles-main .articles-main_right {
+  width: 49%;
+  border: 1px solid black;
+  height: 100%;
+  position: relative;
+}
+.articles .articles-main .articles-main_right img {
+  width: 100%;
+  height: 36.6rem;
+}/*# sourceMappingURL=Articles.css.map */

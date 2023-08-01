@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.about {
+  width: 130rem;
+  height: 71.8rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.about h1 {
+  color: #211F54;
+  font-size: 4.8rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.about p {
+  color: #6E7191;
+  font-size: 2.1rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-bottom: 3rem;
+}
+.about .about-box {
+  width: 100%;
+  height: 39.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.about .about-box .boxes {
+  width: 40rem;
+  height: 100%;
+}
+.about .about-box .boxes .boxes-about_img {
+  width: 24rem;
+  height: 24rem;
+}
+.about .about-box .boxes h1 {
+  color: #211F54;
+  font-size: 2.8rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  margin-top: 2rem;
+}
+.about .about-box .boxes p {
+  color: #6E7191;
+  font-size: 2.1rem;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.about .button-div {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.about .button-div button {
+  width: 21.7rem;
+  height: 7.2rem;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-radius: 1rem;
+  transition: all 0.3s;
+}
+.about .button-div button:hover {
+  background: white;
+  color: #6E7191;
+  border: 1px solid #dbdce0;
+}/*# sourceMappingURL=About.css.map */

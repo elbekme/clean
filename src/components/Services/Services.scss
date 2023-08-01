@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$primary : #211F54;
+$secondary:#6E7191;
+.h1-same{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.p-same{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.Services{
+    width: 130rem;
+    height: 67.2rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5rem;
+    .services-top{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        h1{
+            color: $primary;
+            font-size: 4.8rem;
+        }
+        button{
+            width: 21.7rem;
+            height: 7.2rem;
+            color: white;
+            font-size: 1.8rem;
+            font-weight: 700;
+            border-radius: 1rem;
+            transition: all .3s;
+            &:hover{
+                background: white;
+                color: $secondary;
+                border: 1px solid #dbdce0;
+            }
+        }
+    }
+    .services-box{
+        width: 100%;
+        height: 49.4rem;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10.5rem;
+        .boxes{
+            width: 40rem;
+            height: 100%;
+            border: 1px solid #EFF0F6;
+            .image{
+                margin-top: 3.5rem;
+            }
+            h1{
+                color: $primary;
+                margin-top: 1rem;
+            }
+            p{
+                color: $secondary;
+                font-size: 2.1rem;
+                padding-left: 10%;
+                padding-right: 10%;
+                margin-top: 1rem;
+                line-height: 3rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$primary : #211F54;
+$secondary:#6E7191;
+
+.about{
+    width: 130rem;
+    height: 71.8rem;
+    margin: 0 auto;
+    text-align: center;
+    h1{
+        color: $primary;
+        font-size: 4.8rem;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+    }
+        p{
+            color: $secondary;
+            font-size: 2.1rem;
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif;
+            padding-left: 25%;
+            padding-right: 25%;
+            margin-bottom: 3rem;
+        }
+        .about-box{
+            width: 100%;
+            height: 39.2rem;
+            display: flex;
+            justify-content: space-between;
+            .boxes{
+                width: 40rem;
+                height: 100%;
+                .boxes-about_img{
+                    width: 24rem;
+                    height: 24rem;
+                }
+                h1{
+                    color: $primary;
+                    font-size: 2.8rem;
+                    font-weight: 700;
+                    font-family: 'Roboto', sans-serif;
+                    margin-top: 2rem;
+                }
+                p{
+                    color: $secondary;
+                    font-size: 2.1rem;
+                    padding-left: 0%;
+                    padding-right: 0%;
+                }
+            }
+        }
+        .button-div{
+            width: 100%;
+            margin-top: 4rem;
+            display: flex;
+            justify-content: center;
+            gap: 5rem;
+            button{
+                width: 21.7rem;
+                height: 7.2rem;
+                color: white;
+                font-size: 1.8rem;
+                font-weight: 700;
+                border-radius: 1rem;
+                transition: all .3s;
+                &:hover{
+                    background: white;
+                    color: $secondary;
+                    border: 1px solid #dbdce0;
+                }
+            }
+        }
+}

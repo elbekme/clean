@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.h1-same {
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.p-same {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.Services {
+  width: 130rem;
+  height: 67.2rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5rem;
+}
+.Services .services-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Services .services-top h1 {
+  color: #211F54;
+  font-size: 4.8rem;
+}
+.Services .services-top button {
+  width: 21.7rem;
+  height: 7.2rem;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-radius: 1rem;
+  transition: all 0.3s;
+}
+.Services .services-top button:hover {
+  background: white;
+  color: #6E7191;
+  border: 1px solid #dbdce0;
+}
+.Services .services-box {
+  width: 100%;
+  height: 49.4rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10.5rem;
+}
+.Services .services-box .boxes {
+  width: 40rem;
+  height: 100%;
+  border: 1px solid #EFF0F6;
+}
+.Services .services-box .boxes .image {
+  margin-top: 3.5rem;
+}
+.Services .services-box .boxes h1 {
+  color: #211F54;
+  margin-top: 1rem;
+}
+.Services .services-box .boxes p {
+  color: #6E7191;
+  font-size: 2.1rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 1rem;
+  line-height: 3rem;
+}/*# sourceMappingURL=Services.css.map */

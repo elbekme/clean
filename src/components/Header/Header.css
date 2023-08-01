@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.header {
+  width: 130rem;
+  height: 80rem;
+  background: white;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 10rem;
+  margin-bottom: 10rem;
+}
+.header .header-left {
+  padding-top: 14%;
+  width: 50%;
+  height: 100%;
+}
+.header .header-left h1 {
+  color: #211F54;
+  font-size: 6.8rem;
+  font-weight: 700;
+  line-height: 7.8rem;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 2rem;
+}
+.header .header-left p {
+  color: #6E7191;
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 3rem;
+  font-family: "Roboto", sans-serif;
+}
+.header .header-left .call-block {
+  margin-top: 5rem;
+  display: flex;
+}
+.header .header-left .call-block .btn-call {
+  width: 21.7rem;
+  height: 7.2rem;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-right: 4rem;
+  border-radius: 1rem;
+  transition: all 0.3s;
+}
+.header .header-left .call-block .btn-call:hover {
+  background: white;
+  color: #6E7191;
+  border: 1px solid #dbdce0;
+}
+.header .header-left .call-block .btn-call .call-logo {
+  width: 7.2rem;
+  height: 7.2rem;
+}
+.header .header-left .call-block .btn-call span p {
+  color: #6E7191;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.header .header-left .call-block .btn-call span h2 {
+  color: #211F54;
+  font-size: 2.8rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.header .header-right {
+  width: 50%;
+  height: 100%;
+}
+.header .header-right img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=Header.css.map */

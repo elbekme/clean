@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$primary : #211F54;
+$secondary:#6E7191;
+.h1-same{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.p-same{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+.nav{
+    width: 100%;
+    height: 11.8rem;
+    position: fixed;
+    background: #FFFFFF;
+    z-index: 1;
+    .navbar-item{
+        width: 130rem;
+        height: 100%;
+        margin: 0 auto;
+        background:transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav-left{
+            display: flex;
+            align-items: center;
+            ul{
+                margin-top: 1rem;
+                display: flex;
+                margin-left: 3rem;
+                gap: 2.5rem;
+                li{
+                    a{
+                        text-decoration: none;
+                        font-size: 1.8rem;
+                        color: $primary;
+                        font-weight: 400;
+                        font-family: 'Roboto', sans-serif;
+                        transition: all .3s;
+                        &:hover{
+                            color: $secondary;
+                            padding-bottom: 4rem;
+                            // padding-top: 1rem;
+                            border-bottom: 1px solid blue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .nav-right{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        text-align: center;
+        p{
+            color: $primary;
+            font-size: 1.8rem;
+            margin-top: 1rem;
+        }
+        button{
+            width: 17.4rem;
+            height:5.4rem;
+            border-radius: 2rem;
+            color: #FFFFFF;
+            font-size: 1.6rem;
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif;
+            // margin-bottom: 1rem;
+            &:hover{
+                color: $primary;
+                background: #FFFFFF;
+                border: 1px solid #e5e7f1;
+            }
+        }
+    }
+}

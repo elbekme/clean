@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$primary : #211F54;
+$secondary:#6E7191;
+.h1-same{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.p-same{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.footer{
+    width: 130rem;
+    height: 64rem;
+    margin: 0 auto;
+    padding-top: 12rem;
+    position: relative;
+    .footer-info{
+        width: 100%;
+        height: 25rem;
+        display: flex;
+        justify-content: space-between;
+        .info-1{
+            width: 31.2rem;
+            height:100%;
+            h1{
+                color: $primary;
+                font-size: 2.8rem;
+                line-height: 3.6rem;
+                padding-right: 5%;
+            }
+            p{
+                color: $secondary;
+                font-size: 1.8rem;
+                line-height: 3rem;
+            }
+            div{
+                display: flex;
+                justify-content:left;
+                gap: 1.5rem;
+                margin-top: 3rem;
+                p{
+                    width: 3.6rem;
+                    height: 3.6rem;
+                    background: #EDF5FF;
+                    border-radius: 1rem;
+                }
+            }
+        }
+        .info-2{
+            width: 31.2rem;
+            height: 100%;
+            h1{
+                color: $primary;
+                font-size: 2rem;
+            }
+            p{
+                color: $secondary;
+                font-size: 1.8rem;
+                line-height: 3rem;
+                padding-right: 15%;
+                margin-top: 1.5rem;
+            }
+        }
+        .info-3{
+            width: 16.4rem;
+            height: 100%;
+            h1{
+                color: $primary;
+                font-size: 2rem;
+            }
+            h2{
+                font-size: 1.8rem;
+                color: $primary;
+                margin-top: 2rem;
+            }
+            p{
+                color: $secondary;
+                font-size: 1.8rem;
+                margin-top: 1.5rem;
+            }
+        }
+        .info-4{
+            width: 31.2rem;
+            height: 100%;
+            position: relative;
+            h1{
+                color: $primary;
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1.8rem;
+                color: $secondary;
+                margin-top: 1rem;
+            }
+            h2{
+                color: #0075FF;
+                margin-top: 2rem;
+                font-size: 2.8rem;
+            }
+            button{
+                width: 25.6rem;
+                height: 7.2rem;
+                font-size: 1.8rem;
+                color: #FFFFFF;
+                border-radius: 1rem;
+                position: absolute;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                bottom: -10%;
+                &:hover{
+                    color: $primary;
+                    background: #FFFFFF;
+                    border: 1px solid #EFF0F6;
+                }
+        }
+        }
+    }
+    hr{
+        position: absolute;
+        bottom: 20%;
+        width: 100%;
+        background: $secondary;
+    }
+    .footer-bottom{
+        width: 100%;
+        height: 11.5rem;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            color: $secondary;
+            font-size: 1.8rem;
+        }
+    }
+}
